@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nicolas BOIVIN - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../../cdn.jsdelivr.net/gh/iconoir-icons/iconoir%40main/css/iconoir.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <style>
+        .owl-carousel .item img {
+            height: 200px;  /* à adapter à vos besoins */
+            width: auto; /* assure le maintien des proportions */
+            object-fit: cover; /* assure que l'image couvre toute la zone, une partie de l'image pourrait être coupée si les proportions ne correspondent pas */
+        }
+        </style>
+    <!-- C'est recommandé d'inclure jQuery avant OwlCarousel -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+
+    <main class="main-workdetails-page">
+
+        <!-- Header -->
+        <header class="header-area">
+            <div class="container">
+                <div class="gx-row d-flex align-items-center justify-content-between">
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logonb.png" alt="Logo" width="60" height="60">
+                    </a>
+                    
+                    <nav class="navbar">
+                        <ul class="menu">
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="about.html">A propos</a></li>
+                            <li><a href="works.html">Projets</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <a href="" class=""></a>
+                    </nav>
+
+                    <a href="" class=""></a>
+
+                    <div class="show-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Breadcrumb -->
+        <section class="breadcrumb-area">
+            <div class="container">
+                <div class="breadcrumb-content" data-aos="fade-up">
+                    <p>Script PowerShell - Détails</p>
+                    <h1 class="section-heading">Script et fonction</h1>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Details -->
+        <section class="blog-details-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="blog-details-content">
+                            <span class="meta">14 juillet 2023 - 21 juillet 2023</span>
+                            <h1>Création d'un script PowerShell</h1>
+                            <p>Pendant cette semaine, j'ai développé un script PowerShell visant à automatiser le processus d'activation d'utilisateurs au sein d'un Active Directory (AD).</p>
+                            <p>Le cahier des charges qui m'a été attribué consistait à créer un mécanisme permettant d'activer un compte utilisateur sur un serveur AD à partir d'une machine distante. Pour ce faire, j'ai mis en place une méthode d'authentification en tant qu'administrateur via des identifiants d'accès. Cette étape ouvrait la voie à l'apparition d'une fenêtre contextuelle sollicitant le nom d'utilisateur ainsi que la durée d'activation du compte.</p>
+                            <p>En outre, le script est conçu pour générer un mot de passe composé de 12 caractères, incluant au moins une lettre majuscule, une lettre minuscule et un chiffre. Ce mot de passe est ensuite assigné à l'utilisateur spécifié et copié dans le presse-papier.</p>
+                            <p>Une fois ces étapes achevées, le script déclenche la mise en marche à distance d'un VPN, procurant ainsi à l'utilisateur distant la capacité d'accéder à son compte au sein de l'AD.</p>
+
+                            <ul class="list">
+                                <li>- La réalisation de ces tâches a contribué à approfondir mes compétences en scripting PowerShell, renforçant ainsi ma capacité à créer des automatisations puissantes.</li>
+                                <li>- J'ai réussi à mettre en place ce script en respectant scrupuleusement le cahier des charges, tout en préservant l'intégrité du serveur AD.</li>
+                                <li>- J'ai acquis la compétence de configurer une API et d'utiliser un token API directement dans la création de scripts.</li>
+                                <li>- En dépit du délai restreint pour accomplir cette mission, j'ai su la mener à bien grâce à une organisation méthodique et efficace.</li>
+                            </ul>
+
+                            <p>Ce stage m'a offert l'occasion de mettre en pratique mes connaissances en réseau acquises au cours de l'année et d'approfondir ma compréhension du fonctionnement des GPO et des règles de pare-feu.</p>
+                            <p>Lien github du script: <a href="https://github.com/NicolasBoivin/ActivationAdUser"> Github script</a></p>
+                    </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-area">
+            <div class="container">
+                <div class="footer-content text-center">
+                    <ul class="footer-menu">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="works.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <p class="copyright">
+                        &copy; Tous droits réservés par <span>Nicolas BOIVIN</span>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            items: 1,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 3000, // délai d'autoplay en millisecondes
+            nav: true,
+            navText: ["<", ">"]
+        });
+    });
+    </script>
+</body>
+
+</html>

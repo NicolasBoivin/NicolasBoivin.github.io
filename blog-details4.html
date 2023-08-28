@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nicolas BOIVIN - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../../cdn.jsdelivr.net/gh/iconoir-icons/iconoir%40main/css/iconoir.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <style>
+        .owl-carousel .item img {
+            height: 200px;  /* à adapter à vos besoins */
+            width: auto; /* assure le maintien des proportions */
+            object-fit: cover; /* assure que l'image couvre toute la zone, une partie de l'image pourrait être coupée si les proportions ne correspondent pas */
+        }
+        </style>
+    <!-- C'est recommandé d'inclure jQuery avant OwlCarousel -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+
+    <main class="main-workdetails-page">
+
+        <!-- Header -->
+        <header class="header-area">
+            <div class="container">
+                <div class="gx-row d-flex align-items-center justify-content-between">
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logonb.png" alt="Logo" width="60" height="60">
+                    </a>
+                    
+                    <nav class="navbar">
+                        <ul class="menu">
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="about.html">A propos</a></li>
+                            <li><a href="works.html">Projets</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <a href="" class=""></a>
+                    </nav>
+
+                    <a href="" class=""></a>
+
+                    <div class="show-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Breadcrumb -->
+        <section class="breadcrumb-area">
+            <div class="container">
+                <div class="breadcrumb-content" data-aos="fade-up">
+                    <p>Maintenance & gestion serveurs - Détails</p>
+                    <h1 class="section-heading">Maintenance & gestion serveurs</h1>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Details -->
+        <section class="blog-details-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="blog-details-content">
+                            <div class="owl-carousel owl-theme img-box">
+                                <div class="item"><img src="assets/images/gpocarousel/rack4.jpg" alt="Blog"></div>
+                                <div class="item"><img src="assets/images/gpocarousel/rack3.jpg" alt="Blog"></div>
+                                <div class="item"><img src="assets/images/gpocarousel/rack2.jpg" alt="Blog"></div>
+                                <div class="item"><img src="assets/images/gpocarousel/rack1.jpg" alt="Blog"></div>
+                            </div>
+                            <span class="meta">4 aout 2023 - 11 aout 2023</span>
+                            <h1>Maintenance & gestion serveurs</h1>
+                            <p>Au cours de cette semaine, j'ai été en charge de surveiller et résoudre les potentiels problèmes qui pouvaient affecter les serveurs ESXI et les serveurs de stockage.</p>
+                            <p>Le problème le plus grave que j'ai rencontrés est un arret complet d'un serveur de stockage contenant 10terabyte de stockage, heureusement le problème a été resolu en peu de temps.</p>
+                            <p>Il a aussi fallut remedier a un probleme sur l'esxi, l'agent vSphere HA était innaccessible. Le problème a été résolu au plus vite.</p>
+
+                            <ul class="list">
+                                <li>- Ces expériences m'ont aidé à mieux comprendre le fonctionnement d'un ESXI et de la liaison des machines avec les serveurs de stockage.</li>
+                                <li>- La maintenance des serveurs a été une expérience enrichissante et grandement instructive.</li>
+                                <li>- J'ai appris à gérer les situations de crise, notamment en rétablissant rapidement le fonctionnement d'un serveur de stockage critique.</li>
+                                <li>- J'ai également développé mes compétences en diagnostic et en résolution de problèmes, en traitant efficacement l'inaccessibilité de l'agent vSphere HA.</li>
+                                <li>- En travaillant en étroite collaboration avec l'équipe IT, j'ai également renforcé mes compétences en travail d'équipe et en communication.</li>
+                            </ul>
+    
+                            <p>En conclusion, cette semaine de maintenance et de gestion des serveurs a été une occasion précieuse d'apprendre et de grandir en tant que professionnel de l'informatique. Non seulement j'ai acquis une expérience pratique dans la résolution de problèmes réels, mais j'ai également renforcé mes compétences en collaboration et en gestion du stress. Je suis reconnaissant pour cette opportunité et je suis confiant dans ma capacité à gérer des situations similaires à l'avenir.</p>
+    
+                            
+                    </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-area">
+            <div class="container">
+                <div class="footer-content text-center">
+                    <ul class="footer-menu">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="works.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <p class="copyright">
+                        &copy; Tous droits réservés par <span>Nicolas BOIVIN</span>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            items: 1,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 3500, // délai d'autoplay en millisecondes
+            nav: true,
+            navText: ["<<",          ">>"]
+        });
+    });
+    </script>
+</body>
+
+</html>

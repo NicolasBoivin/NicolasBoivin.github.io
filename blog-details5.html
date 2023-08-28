@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nicolas BOIVIN - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../../cdn.jsdelivr.net/gh/iconoir-icons/iconoir%40main/css/iconoir.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <style>
+        .owl-carousel .item img {
+            height: 200px;  /* à adapter à vos besoins */
+            width: auto; /* assure le maintien des proportions */
+            object-fit: cover; /* assure que l'image couvre toute la zone, une partie de l'image pourrait être coupée si les proportions ne correspondent pas */
+        }
+        </style>
+    <!-- C'est recommandé d'inclure jQuery avant OwlCarousel -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+
+    <main class="main-workdetails-page">
+
+        <!-- Header -->
+        <header class="header-area">
+            <div class="container">
+                <div class="gx-row d-flex align-items-center justify-content-between">
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logonb.png" alt="Logo" width="60" height="60">
+                    </a>
+                    
+                    <nav class="navbar">
+                        <ul class="menu">
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="about.html">A propos</a></li>
+                            <li><a href="works.html">Projets</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <a href="" class=""></a>
+                    </nav>
+
+                    <a href="" class=""></a>
+
+                    <div class="show-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Breadcrumb -->
+        <section class="breadcrumb-area">
+            <div class="container">
+                <div class="breadcrumb-content" data-aos="fade-up">
+                    <h1 class="section-heading">Présentation</h1>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Details -->
+        <section class="blog-details-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="blog-details-content">
+                            <div class="owl-carousel owl-theme img-box">
+                                <div class="item"><img src="assets/images/gpocarousel/Hopital.jpg" alt="Blog"></div>
+                            </div>
+                            <h1>Présentation du Centre Hospitalier d'Auxerre</h1>
+                            <p>Le Centre Hospitalier (CH) d'Auxerre est un établissement de santé situé dans la région de Bourgogne-Franche-Comté, en France. Il est engagé dans la fourniture de soins de santé de haute qualité aux résidents d'Auxerre et des environs. L'hôpital offre une gamme complète de services médicaux, y compris des urgences 24h/24, des soins spécialisés, de la chirurgie, de la maternité et des services ambulatoires.</p>
+
+                            <h2>Service Informatique</h2>
+                            <p>Le service informatique du CH d'Auxerre joue un rôle crucial dans le fonctionnement quotidien de l'hôpital. Il est responsable de la gestion et de la maintenance de tous les systèmes informatiques, des réseaux et des équipements de l'hôpital. Cela inclut les systèmes d'information médicale, les systèmes de gestion des patients, les réseaux locaux et étendus, ainsi que le matériel et les logiciels associés.</p>
+
+                            <h2>Service Informatique</h2>
+                            <p>Pendant mon temps au service informatique, j'ai eu l'occasion de travailler sur plusieurs projets importants. L'une de mes principales responsabilités était la création et la révision des règles de pare-feu et des Group Policy Objects (GPO). Cela a impliqué d'analyser les besoins de l'hôpital en matière de sécurité réseau, de développer des politiques de sécurité appropriées et de mettre en œuvre ces politiques sur les systèmes de l'hôpital.</p>
+                            <p>De plus, j'ai également travaillé sur la mise à jour et la maintenance des systèmes d'exploitation et des logiciels de l'hôpital. Cela a inclus la planification et l'exécution de mises à jour régulières, ainsi que la résolution de tout problème ou défaillance du système.</p>
+
+                            <h2>Conclusion</h2>
+                            <p>Mon expérience au CH d'Auxerre a été extrêmement enrichissante. J'ai eu l'occasion de travailler dans un environnement professionnel dynamique et d'acquérir une expérience pratique précieuse dans le domaine de l'informatique médicale. Je suis reconnaissant envers toute l'équipe du service informatique pour leur soutien et leurs conseils tout au long de mon séjour.</p>
+
+                    </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-area">
+            <div class="container">
+                <div class="footer-content text-center">
+                    <ul class="footer-menu">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="works.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <p class="copyright">
+                        &copy; Tous droits réservés par <span>Nicolas BOIVIN</span>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            items: 1,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 3500, // délai d'autoplay en millisecondes
+            nav: true,
+            navText: ["<<",          ">>"]
+        });
+    });
+    </script>
+</body>
+
+</html>
